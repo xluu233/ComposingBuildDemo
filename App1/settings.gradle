@@ -1,0 +1,18 @@
+//pluginManagement {
+//    repositories {
+//        gradlePluginPortal()
+//        google()
+//        mavenCentral()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+
+rootProject.name = "App1"
+include ':app'
+includeBuild '../plugin-version'
+//includeBuild("plugin-version")
